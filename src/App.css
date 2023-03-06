@@ -1,0 +1,2141 @@
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* Html objsect*/
+
+img {
+  padding-top: 5%;
+  width:100%;
+  height:100%;
+}
+
+.btn.btn-primary {
+  background-color: #aa0047;
+  border-color: #aa0047;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:active,
+.btn.btn-primary:focus,
+.btn.btn-primary:visited{
+  background-color:#df4082;
+  border-color:#df4082;
+  box-shadow:  0 0 8px rgb(233, 52, 151) !important;
+}
+
+.btn.btn-primary:focus
+.btn.btn-primary.focus{
+  border-color:#df4082;
+  box-shadow: 0 0 8px rgb(233, 52, 151) !important;
+}
+
+.btn.btn-secundary {
+  background-color: #5e2b41;
+  border-color: #5e2b41;
+  color: #f1f1f1;
+  font-size: 3ch;
+  font-weight: bolder;
+}
+
+.btn.btn-secundary:hover,
+.btn.btn-secundary:active,
+.btn.btn-secundary:focus,
+.btn.btn-secundary:visited{
+  background-color:#df4082;
+  border-color:#df4082;
+  box-shadow:  0 0 8px rgb(233, 52, 151) !important;
+}
+
+.btn.btn-adminsa {
+  background-color: #444bda;
+  border-color: #444bda;
+  color:white;
+}
+
+.btn.btn-adminsa:hover,
+.btn.btn-adminsa:active,
+.btn.btn-adminsa:focus,
+.btn.btn-adminsa:visited{
+  background-color:#444bda;
+  border-color:#444bda;
+  box-shadow:  0 0 8px #444bda !important;
+  color: white;
+}
+
+.btn.btn-adminsa:focus
+.btn.btn-adminsa.focus{
+  border-color:#444bda;
+  box-shadow: 0 0 8px #444bda !important;
+}
+
+
+.btn.btn-adminsaprivate {
+  background-color: #4e5282;
+  border-color: #4e5282;
+  color:white;
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;  
+}
+
+.btn.btn-adminsaprivate:hover,
+.btn.btn-adminsaprivate:active,
+.btn.btn-adminsaprivate:focus,
+.btn.btn-adminsaprivate:visited{
+  background-color:#4e5282;
+  border-color:#4e5282;
+  box-shadow:  0 0 8px #4e5282 !important;
+  color: white;
+}
+
+.btn.btn-adminsaprivate:focus
+.btn.btn-adminsaprivate.focus{
+  border-color:#4e5282;
+  box-shadow: 0 0 8px #4e5282 !important;
+}
+
+.btn.btn-adminsaprivateRegular {
+  background-color: #4e5282;
+  border-color: #4e5282;
+  color:white;
+}
+
+
+.btn.btn-adminsaprivateRegular:hover,
+.btn.btn-adminsaprivateRegular:active,
+.btn.btn-adminsaprivateRegular:focus,
+.btn.btn-adminsaprivateRegular:visited{
+  background-color:#4e5282;
+  border-color:#4e5282;
+  box-shadow:  0 0 8px #4e5282 !important;
+  color: white;
+}
+
+.btn.btn-adminsaprivateRegular:focus
+.btn.btn-adminsaprivateRegular.focus{
+  border-color:#4e5282;
+  box-shadow: 0 0 8px #4e5282 !important;
+}
+
+.form-control:focus,
+.form-control.focus,
+.form-control:hover,
+.form-control.hover,
+.form-control:active,
+.form-control.active,
+.form-control:visited,
+.form-control.visited{
+  border-color:#df4082;
+  box-shadow:  0 0 8px rgb(233, 52, 151) !important;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  height: 200vh;
+}
+
+.AppPublicPrivate {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  height: 120vh;
+}
+
+.sshbodyapp {
+  background-color: #f1f1f1;
+  flex: 75%;
+  padding: 10px;
+  height: 100%;
+}
+
+
+
+.sshbodyappContainer {
+  flex: 100%;
+  height: 100%;
+}
+
+.sshbodyappContainerRegister {
+  flex: 20%;
+}
+
+.sshbodyappContainerRegisterEpescialParrafo{
+   font-weight: bolder;
+   text-align: right;
+   color: black;
+}
+
+.sshbodyappContainerLogin {
+  flex: 80%;
+}
+
+.sshbodyappContainerLoginCarrusel{
+  flex: 60%;
+  height: 60%;
+  padding: 15%;
+}
+
+.sshbodyappContainerLoginForm{
+  flex: 40%;
+}
+
+.sshheaderapp {
+  background-color: #4e5282;
+  flex: 25%;
+  padding: 10px;
+  height: 100%;
+}
+
+.sshheaderappPrivate {
+  background-color: #5e2b41;
+  flex: 25%;
+  padding: 10px;
+  height: 100%;
+}
+
+.sshheaderappSa {
+  background-color: #444bdb;
+  flex: 25%;
+  padding: 10px;
+  height: 100%;
+}
+
+.sshheaderappPrivateAdmin {
+  background-color: #4e5283;
+  flex: 25%;
+  padding: 10px;
+  height: 100%;
+}
+
+.sshheaderContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%; 
+}
+
+.sshheaderImg{
+  flex:1%;
+}
+
+.sshheaderPrivateProfileImage{
+  flex:5%;
+}
+
+.sshheaderDesc{
+  flex-direction: row;
+  flex:70%;
+}
+
+
+@media (max-width: 800px) {
+  .sshheaderDesc {
+    flex-direction: column;
+    height: 100px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sshheaderDesc {
+    flex-direction: column;
+    height: 100px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .sshheaderDesc {
+    flex-direction: column;
+    height: 100px;
+  }
+}
+
+
+
+
+.sshheaderDescTit{
+  color: #f1f1f1;
+  font-style: normal;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+  flex:30%;
+  padding-top:10%;
+  text-align: left;
+}
+
+@media (max-width: 800px){
+  .sshheaderDescTit {
+    padding: 1%;
+  }
+  
+}
+
+@media (max-width: 1024px){
+  .sshheaderDescTit{
+    padding: 1%;
+  }
+  
+}
+
+@media (max-width: 1024px){
+  .sshheaderDescTit{
+    padding: 1%;
+  }
+  
+}
+
+.sshheaderDescItems{
+  flex:70%;
+  color: antiquewhite;
+  padding-top: 10%;
+  font-size:1.3em;
+  font-weight:lighter;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: left;
+}
+
+@media (max-width: 1024px) {
+  .App {
+    flex-direction: column;
+    height: 200vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .App {
+    flex-direction: column;
+    height: 200vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .sshheaderContainer {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 38vh;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .sshheaderImg>img {
+      display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sshheaderContainer {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 38vh;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sshheaderDesc {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sshheaderImg>img {
+      display: none;
+  }
+}
+
+@media (max-width: 1280px) {
+  .sshheaderContainer {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 38vh;
+  }
+}
+
+@media (max-width: 1280px) {
+  .sshheaderDesc {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1280px) {
+  .sshheaderImg>img {
+      display: none;
+  }
+}
+
+
+
+.loader {
+  border: 16px solid silver; /* Light grey */
+  border-top: 16px solid #aa0047; /* Blue */
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  animation: spin 2s linear infinite;
+  margin:auto;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+
+
+.loaderS {
+  border: 5px solid silver; /* Light grey */
+  border-top: 5px solid #aa0047; /* Blue */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+  margin:auto;
+  left:0;
+  right:0;
+  top:0;
+  bottom:0;
+}
+
+.waitProcess{
+  visibility: hidden;
+}
+
+.waitProcessV{
+  visibility: visible;
+}
+
+.botonTicketContainer {
+  width: 150px;
+  height: 150px;
+  background-color: #5e2b41;
+  color: #f1f1f1;
+  border:2px;
+  border-radius: 5%;
+  position:-ms-page;
+}
+
+.botonTicketHeader{
+  width: 100%;
+  height: 50px;
+  float: left;
+}
+
+.botonTicketHeaderIconMenos
+{
+  width: 50px;
+  height: 100%;
+  float: left;
+}
+
+.botonTicketHeaderIconEmpty {
+  width: 45px;
+  height: 100%;
+  float: left;
+}
+
+.botonTicketHeaderIconMas
+{
+  width: 50px;
+  height: 100%;
+  float: left;
+}
+
+.botonTicketBody{
+  width: 100%;
+  height: 98px;
+  float: left;
+  padding-left: 25px;
+}
+
+.botonTicketBodyCantidad{
+  width: 100px;
+  height: 98px;
+  float: left;
+  color:#b4b1b1;
+}
+
+.ticketMediaPay{
+  margin-top:10px;
+  width: 100%;
+  height: 350px;
+  background-color: #e1dcdc;
+  border: 1px;
+  border-color: #e1dcdc;
+  visibility:Visible;;
+}
+
+.ticketMediaPayHidden{
+  margin-top:10px;
+  width: 100%;
+  height: 220px;
+  background-color: #e1dcdc;
+  border: 2px;
+  border-color: #e1dcdc;
+  visibility:hidden;
+  border-radius: 5%;
+}
+
+.bodyhomeBeneficiarios{
+  margin-top:10px;
+  width: 100%;
+  height: 300px;
+  background-color: #e1dcdc;
+  border: 2px;
+  border-color: #e1dcdc;
+  visibility:Visible;
+  border-radius: 15px 15px;
+  overflow-y: scroll;
+}
+.bodyhomeBeneficiariosAdm
+{
+  margin-top:10px;
+  width: 100%;
+  height: 300px;
+  background-color: #e1dcdc;
+  border: 2px;
+  border-color: #e1dcdc;
+  visibility:visible;
+  border-radius: 15px 15px;
+}
+
+.bodyhomeBeneficiariosAdmHidden
+{
+  margin-top:10px;
+  width: 100%;
+  height: 300px;
+  background-color: #e1dcdc;
+  border: 2px;
+  border-color: #e1dcdc;
+  visibility:collapse;
+  border-radius: 15px 15px;
+}
+
+.bodyhomeBeneficiariospadding
+{
+  padding: 5px;
+}
+
+.bodyhomeBeneficiariosTitulo
+{
+  width: 100%;
+  height: 40px;
+  text-align: left;
+  font-size: 25px;
+  font-weight: bolder;
+  color: black;
+  background-color: #e1dcdc;
+  margin-left:20px;
+}
+
+.bodyhomeTicketsTitulo
+{
+  width: 100%;
+  height: 22px;
+  text-align: left;
+  font-size: 17px;
+  font-weight: bolder;
+  color: black;
+  background-color: #e1dcdc;
+  margin-left:20px;
+}
+
+.bodyhomeBeneficiariosTituloBody
+{
+   width: 100%;
+   text-align: left;
+   margin-top: 10px;
+   margin-left: 20px;   
+}
+
+.bodyhomeBeneficiariosFooter
+{
+  width: 100%;
+  height: 40px;
+  text-align: left;
+  font-size: 25px;
+  font-weight: bolder;
+  color: black;
+  background-color: #e1dcdc;
+  margin-left:20px;
+  margin-top: 5px;
+}
+
+.bodyhomeTickets{
+  margin-top:10px;
+  width: 100%;
+  height: 300px;
+  background-color: #e1dcdc;
+  border: 2px;
+  border-color: #e1dcdc;
+  visibility:Visible;
+  border-radius: 15px 15px;  
+}
+
+.bodyhomeTicketsDetail{
+  margin-top:10px;
+  width: 100%;
+  height: 400px;
+  background-color: #e1dcdc;
+  border: 2px;
+  border-color: #e1dcdc;
+  visibility:Visible; 
+  border-radius: 15px 15px; 
+}
+
+.imgMediaPay{
+  margin-bottom: 10px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+table.ausolan {
+  width: 100%;
+  border-collapse: collapse;
+  border:none;
+}
+
+table.ausolan th{
+  border: none;
+  text-align: left;
+  padding: 1%;
+  font-size: large;
+  font-weight: bolder;
+  background-color: #aa0047;
+  color: #f1f1f1;
+}
+
+table.ausolan tbody{
+  background-color:#ffffff;
+}
+
+table.ausolan tr{
+  border-collapse: separate;
+  border:1px;
+  border-color: silver;
+}
+
+table.ausolan td{
+  border-collapse: separate;
+  border:1px;
+  border-color: silver;
+  text-align: left;
+  padding: 1%;
+  font-size: large;
+  font-weight: bolder;
+  background-color:white;
+  color: #2c2a2a;
+}
+
+.cuadroEstadoTickets
+{
+  border: #b4b1b1;
+  width: 150px;
+  height: 200px;
+  padding: 8%;
+  background-color: #5e2b41;
+  border-radius: 15px;
+  margin: 5%;
+}
+
+.cuadroEstadoTicketsPC
+{
+  border: #b4b1b1;
+  width: 150px;
+  height: 200px;
+  padding: 8%;
+  background-color: #30727b;
+  border-radius: 15px;
+  margin: 5%;
+}
+
+.cuadroEstadoTicketsNPC
+{
+  border: #b4b1b1;
+  width: 150px;
+  height: 200px;
+  padding: 8%;
+  background-color: #cd9c17;
+  border-radius: 15px;
+  margin: 5%;
+}
+
+.circuloEstadoTickets
+{
+  width: 100px;
+  height: 160px;
+  border-radius: 100px;
+  background-color: #ffffff;
+  color: #2c2a2a;
+  font-size:90px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.popupnewbenef
+{
+  width: 600px;
+  height: 200px;
+  background-color:#f4efef;
+  border: 1px;
+  border-radius: 15px;
+}
+
+
+
+
+.boleta
+{
+  width: 100%;
+  height: 500px;
+  border: solid 1px;
+  border-color: #5c5858;
+  background-color: #fcf8f8;
+  position:relative;
+
+}
+
+.boletaHeader
+{
+  width: 100%;
+  height: 20%;
+  border-bottom: solid 1px;
+  border-color: #5c5858;
+  position:relative;  
+}
+
+.boletaHeaderStatIcon
+{
+  width: 13%;
+  height: 100%;
+  float: left;
+  padding: 1%;
+  position:relative;
+}
+
+.boletaHeaderStatIconRound
+{
+  border-radius: 50%;
+  background-color: red;
+  font-size: 12mm;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  width: 60%;
+  height: 100%;
+  padding-top: 0%;
+  position:relative;
+}
+
+.boletaHeaderStatText
+{
+  width: 87%;
+  float: left;
+  font-size: 12mm;
+  text-align: center;
+  color:#000000;
+  width: 75%;
+  height: 100%;
+  padding-top: 1%;
+}
+
+
+.boletaHeaderStatIconRoundOk
+{
+  border-radius: 50%;
+  background-color:darkolivegreen;
+  font-size: 12mm;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  width: 60%;
+  height: 100%;
+  padding-top: 0%;
+  position:relative;
+}
+
+.boletaDetalle
+{
+  width: 100%;
+  height: 100%;
+  padding-top: 2%;
+}
+
+
+.boletaDetalleTitulo
+{
+  width: 30%;
+  height: 8%;
+  float: left;
+  font-size: 6mm;
+  font-weight: 300;
+  text-align: right;
+  color:#000000;  
+}
+
+.boletaDetalleContenido
+{
+  width: 50%;
+  height: 8%;
+  float: left;
+  font-size: 6mm;
+  text-align: center;
+  color:#000000;
+}
+
+
+@media (max-width: 800px) {
+  .boleta {
+    height: 800px;
+  }
+}
+
+.boletatitulo
+{
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  color: black;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+
+
+.boletatituloDetalle
+{
+  width: 100%;
+  text-align: right;
+  font-size: 20px;
+  font-weight: bolder;
+  color: black;
+
+}
+
+@media (max-width: 800px) {
+  .boletatituloDetalle {
+    text-align: center;
+    align-items: center;
+  }
+}
+
+.boletavalorDetalle
+{
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  font-weight:normal;
+  color: rgb(82, 75, 75); 
+}
+
+@media (max-width: 800px) {
+  .boletavalorDetalle {
+    text-align: center;
+    align-items: center;
+  }
+}
+
+.boletabody
+{
+  width: 100%;
+}
+
+.columnaOculta
+{
+  visibility: hidden;
+  display: none;
+}
+
+/*
+table,
+th,
+td {
+  border: 1px solid black;
+}
+thead {
+  background-color: #1c87c9;
+  color: #ffffff;
+}
+th {
+  text-align: center;
+  height: 50px;
+}
+tbody tr:nth-child(odd) {
+  background: #ffffff;
+}
+tbody tr:nth-child(even) {
+  background: #f4f4f4;
+}
+*/
+
+.boSeccionBox{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  width: 98%;
+  height: 200px;
+  padding: 1%;
+  float: left;
+  margin-top: 10px;
+  text-align: left;  
+}
+
+.boSeccionBoxTitle{
+  color: #000000;
+  font-size: 4mm;
+  font-weight: bolder;
+  float: left; 
+  text-align: left;
+  width: 60%;  
+}
+
+.boTicketBox{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 40%;
+  height: 150px;
+  padding: 2%;
+  float: left;
+  margin-left:5px;
+  margin-top: 10px;
+}
+
+.boTicketBoxTitulo{
+  color: #5a5757;
+  font-size: 4mm;
+  float: left; 
+  text-align: left;
+  width: 90%;
+}
+
+.boTicketBoxContent{
+  width: 90%;
+  color: black;
+  font-size: 8mm;
+  float: left;
+  text-align: left;
+}
+
+.boTicketBoxFooter{
+  width: 90%;
+  color: #716f6f;
+  font-size: 3mm;
+  float: left;
+  text-align: left;
+}
+
+
+.boSeccionForm{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  width: 98%;
+  height: 350px;
+  padding: 1%;
+  float: left;
+  margin-top: 10px;
+  text-align: left;  
+}
+
+.boSeccionFormTitle{
+  color: #000000;
+  font-size: 4mm;
+  font-weight: bolder;
+  float: left; 
+  text-align: left;
+  width: 80%;  
+}
+
+.boControlForm{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 100%;
+  height: 60px;
+  padding: 1%;
+  float: left;
+  margin-left:5px;
+  margin-top: 10px;
+}
+
+.boControlFormTitulo{
+  color: #5a5757;
+  font-size: 4mm;
+  float: left; 
+  text-align: left;
+  width: 80%;
+}
+
+.boControlFormContent{
+  width: 50%;
+  color: black;
+  font-size: 5mm;
+  float: left;
+  text-align: left;
+}
+
+.boControlFormAditionalContent{
+  width: 40%;
+  color: black;
+  font-size: 4mm;
+  float: left;
+  text-align: center;
+}
+
+
+
+.boSeccionGrilla{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  width: 95%;
+  height: 400px;
+  padding: 1%;
+  float: left;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.boSeccionGrillaTitle{
+  color: #000000;
+  font-size: 4mm;
+  font-weight: bolder;
+  float: left; 
+  text-align: left;
+  width: 30%;  
+}
+
+.boSeccionGrillaSearch{
+  color: #000000;
+  font-size: 4mm;
+  font-weight: bolder;
+  float: left; 
+  text-align: right;
+  width: 60%;  
+}
+
+.boGrilla{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  width: 98%;
+  height: 98%;
+  padding: 1%;
+  float: left;
+  margin-top: 10px;
+  text-align: left;
+  overflow-y: scroll;  
+}
+
+.boLineGrilla{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 98%;
+  height: 40px;
+  padding: 1%;
+  float: left;
+  margin-left:5px;
+  margin-top: 10px;
+}
+
+.boLineGrillaTitulo{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 98%;
+  height: 40px;
+  padding: 1%;
+  float: left;
+  margin-left:5px;
+  margin-top: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+.boLineIndexGrilla{
+  background-color: #e9e9e9;
+  border-color: #e9e9e9;
+  border-radius: 50%;
+  color:black;
+  text-align: center;
+  font-size: 3mm;
+  float: left;
+  width: 5%;
+  height: 95%;
+  padding: 1%;
+}
+
+.boLinePrincipalContentGrilla{
+  color:black;
+  text-align: left;
+  font-size: 3mm;
+  font-weight: bolder;
+  float: left;
+  width: 23%;
+  height: 95%;
+  padding: 1%;
+  border-right: #e2dfdf solid;
+}
+
+.boLineSecundaryContentGrilla{
+  color:black;
+  text-align: left;
+  font-size: 3mm;
+  font-weight: bolder;
+  float: left;
+  width: 45%;
+  height: 95%;
+  padding: 1%;
+  border-right: #e2dfdf solid;
+}
+
+.boControlFormAditionalContent{
+  width: 40%;
+  color: black;
+  font-size: 3mm;
+  float: left;
+  text-align: center;
+}
+
+.seccionVisible
+{
+  visibility: visible;
+}
+
+.seccionNoVisible
+{
+  visibility: hidden;
+}
+
+
+.boGestionTicketControlForm{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 98%;
+  height: 90px;
+  padding: 1%;
+  float: left;
+  margin-left:5px;
+  margin-top: 10px;
+}
+
+.boGestionTicketControlFormTitulo{
+  color: #5a5757;
+  font-size: 5mm;
+  float: left; 
+  text-align: left;
+  width: 45%;
+}
+
+.boGestionTicketControlFormContent{
+  width: 45%;
+  color: black;
+  font-size: 6mm;
+  float: left;
+  text-align: left;
+}
+
+.boGestionTicketSeccionForm{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  width: 100%;
+  height: 300px;
+  padding: 1%;
+  float: left;
+  margin-top: 10px;
+  text-align: left;  
+}
+
+.boGestionTicketSeccion{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  width: 100%;
+  height: 300px;
+  padding: 1%;
+  float: left;
+  margin-top: 10px;
+  text-align: left;  
+}
+
+.boGestionTicketSeccionGrilla{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  width: 100%;
+  height: 500px;
+  padding: 1%;
+  float: left;
+  margin-top: 10px;
+  text-align: left;
+}
+
+
+.boTicketSeccionGrilla{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  width: 100%;
+  height: 400px;
+  padding: 1%;
+  float: left;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.boTicketSeccionCargaMasiva{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  width: 100%;
+  height: 150px;
+  padding: 1%;
+  float: left;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.boTicketGrilla{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  width: 98%;
+  height: 98%;
+  padding: 1%;
+  float: left;
+  margin-top: 10px;
+  text-align: left;
+  overflow-y: scroll;  
+}
+
+.boTicketLineGrilla{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 98%;
+  height: 60px;
+  padding: 1%;
+  float: left;
+  margin-left:5px;
+  margin-top: 10px;
+}
+
+.boTicketLineGrillaTitulos{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 98%;
+  height: 60px;
+  padding: 1%;
+  float: left;
+  margin-left:5px;
+  margin-top: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+
+.boTicketLinePrincipalContentGrilla{
+  color:black;
+  text-align: left;
+  font-size: 4mm;
+  font-weight: bolder;
+  float: left;
+  width: 13%;
+  height: 95%;
+  padding: 1%;
+  border-right: #e2dfdf solid;
+}
+
+
+
+.clSeccionBox{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  width: 95%;
+  height: 250px;
+  padding: 1%;
+  float: left;
+  margin-top: 10px;
+  text-align: left;  
+}
+
+.clSeccionBoxTitle{
+  color: #000000;
+  font-size: 4mm;
+  font-weight: bolder;
+  float: left; 
+  text-align: left;
+  width: 90%;  
+}
+
+.clTicketBox{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 300px;
+  height: 180px;
+  padding: 2%;
+  float: left;
+  margin-left:5px;
+  margin-top: 10px;
+}
+
+.clTicketBoxTitulo{
+  color: #5a5757;
+  font-size: 5mm;
+  float: left; 
+  text-align: left;
+  width: 250px;
+}
+
+.clTicketBoxContent{
+  width: 250px;
+  color: black;
+  font-size: 10mm;
+  float: left;
+  text-align: left;
+}
+
+.clTicketBoxFooter{
+  width: 250px;
+  color: #716f6f;
+  font-size: 4mm;
+  float: left;
+  text-align: left;
+}
+
+@media (max-width: 1370px){
+  .clSeccionBox{
+    height: 500px;
+  }
+}
+
+@media (max-width: 800px){
+  .clSeccionBox{
+    height: 700px;
+  }
+}
+
+@media (max-width: 800px){
+  .clTicketBox{
+    width: 450px;
+  }
+}
+
+
+.benefSeccionGrilla{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  width: 95%;
+  height: 250px;
+  padding: 1%;
+  float: left;
+  margin-top: 10px;
+  text-align: left;
+}
+
+@media (max-width: 800px){
+  .benefSeccionGrilla{
+    height: 400px;
+  }
+}
+
+@media (max-width: 1200px){
+  .benefSeccionGrilla{
+    height: 400px;
+  }
+}
+
+
+.benefSeccionGrillaTitle{
+  color: #000000;
+  font-size: 4mm;
+  font-weight: bolder;
+  float: left; 
+  text-align: left;
+  width: 30%;  
+}
+
+.benefSeccionGrillaSearch{
+  color: #000000;
+  font-size: 4mm;
+  font-weight: bolder;
+  float: left; 
+  text-align: right;
+  width: 60%;  
+}
+
+.benefGrilla{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  width: 98%;
+  height: 70%;
+  padding: 1%;
+  float: left;
+  margin-top: 10px;
+  text-align: left;
+  overflow-y: scroll;  
+}
+
+.benefLineGrilla{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 98%;
+  height: 40px;
+  padding: 1%;
+  float: left;
+  margin-left:5px;
+  margin-top: 10px;
+}
+
+.benefLineGrillaTitulos{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 98%;
+  height: 40px;
+  padding: 1%;
+  float: left;
+  margin-left:5px;
+  margin-top: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+
+}
+
+.benefLineIndexGrilla{
+  background-color: #e9e9e9;
+  border-color: #e9e9e9;
+  border-radius: 50%;
+  color:black;
+  text-align: center;
+  font-size: 3mm;
+  float: left;
+  width: 4%;
+  height: 80%;
+  padding: 1%;
+}
+
+.benefLinePrincipalContentGrilla{
+  color:black;
+  text-align: left;
+  font-size: 3mm;
+  font-weight: bolder;
+  float: left;
+  width: 23%;
+  height: 95%;
+  padding: 1%;
+  border-right: #e2dfdf solid;
+}
+
+.benefLineSecundaryContentGrilla{
+  color:black;
+  text-align: left;
+  font-size: 4mm;
+  font-weight: bolder;
+  float: left;
+  width: 45%;
+  height: 95%;
+  padding: 1%;
+  border-right: #e2dfdf solid;
+}
+
+.benefControlFormAditionalContent{
+  width: 40%;
+  color: black;
+  font-size: 6mm;
+  float: left;
+  text-align: center;
+}
+
+
+
+
+.cltkSeccionGrilla{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  width: 95%;
+  height: 600px;
+  padding: 1%;
+  float: left;
+  margin-top: 10px;
+  text-align: left;
+}
+
+@media (max-width: 800px){
+  .cltkSeccionGrilla{
+    height: 400px;
+  }
+}
+
+@media (max-width: 1200px){
+  .cltkSeccionGrilla{
+    height: 400px;
+  }
+}
+
+.cltkSeccionGrillaTitle{
+  color: #000000;
+  font-size: 4mm;
+  font-weight: bolder;
+  float: left; 
+  text-align: left;
+  width: 30%;  
+}
+
+.cltkSeccionGrillaSearch{
+  color: #000000;
+  font-size: 4mm;
+  font-weight: bolder;
+  float: left; 
+  text-align: right;
+  width: 60%;  
+}
+
+.cltkGrilla{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  width: 98%;
+  height: 80%;
+  padding: 1%;
+  float: left;
+  margin-top: 10px;
+  text-align: left;
+  overflow-y: scroll;  
+}
+
+.cltkLineGrilla{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 98%;
+  height: 40px;
+  padding: 1%;
+  float: left;
+  margin-left:5px;
+  margin-top: 10px;
+}
+
+.cltkLineGrillaTitulos{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 98%;
+  height: 40px;
+  padding: 1%;
+  float: left;
+  margin-left:5px;
+  margin-top: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;    
+}
+
+.cltkLineIndexGrilla{
+  background-color: #e9e9e9;
+  border-color: #e9e9e9;
+  border-radius: 50%;
+  color:black;
+  text-align: center;
+  font-size: 3mm;
+  float: left;
+  width: 4%;
+  height: 95%;
+  padding: 1%;
+}
+
+.cltkLinePrincipalContentGrilla{
+  color:black;
+  text-align: left;
+  font-size: 3mm;
+  font-weight: bolder;
+  float: left;
+  width: 18%;
+  height: 95%;
+  padding: 1%;
+  border-right: #e2dfdf solid;
+}
+
+.cltkLineSecundaryContentGrilla{
+  color:black;
+  text-align: left;
+  font-size: 3mm;
+  font-weight: bolder;
+  float: left;
+  width: 45%;
+  height: 95%;
+  padding: 1%;
+  border-right: #e2dfdf solid;
+}
+
+.cltkControlFormAditionalContent{
+  width: 40%;
+  color: black;
+  font-size: 6mm;
+  float: left;
+  text-align: center;
+}
+
+.controlmdcenter
+{
+  width: 40%;
+  text-align: center;
+}
+
+.separateRow{
+  padding: 3px;
+}
+
+.alertFlotante{
+  position: relative;
+  background:rgba(0,0,0,0.5);
+}
+
+.divAbsolute{
+  position: absolute;
+  float: none;
+  content: '';
+  z-index: 999;
+}
+
+
+
+
+.boTicketSeccionGrillaResponsive{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  width: 100%;
+  height: 400px;
+  padding: 1%;
+  float: left;
+  margin-top: 10px;
+  text-align: left;
+}
+
+
+.boSeccionGrillaHeaderResponsive{
+  background-color: #5a2b42;
+  width: 100%;
+  height: 50px;
+  float: left;  
+}
+
+@media (max-width: 1280px){
+  .boSeccionGrillaHeaderResponsive{
+    height: 250px;
+  }
+}
+
+@media (max-width: 1024px){
+  .boSeccionGrillaHeaderResponsive{
+    height: 250px;
+  }
+}
+
+@media (max-width: 800px){
+  .boSeccionGrillaHeaderResponsive{
+    height: 250px;
+  }
+}
+
+
+
+
+.boTicketGrillaResponsive{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  width: 100%;
+  height: 98%;
+  padding: 1%;
+  float: left;
+  margin-top: 10px;
+  text-align: left;
+  overflow-y: scroll;
+  overflow-x:hidden;  
+}
+
+.boTicketLineGrillaTitulosResponsive{
+  background-color: #5a2b42;
+  border-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 100%;
+  height: 40px;
+  padding: 4px;
+  float: left;
+  margin-left:5px;
+  margin-top: 5px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+.boSeccionGrillaObjectsResponsive{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 10px;	
+  color: white;
+  font-size: 4mm;
+  float: left; 
+  text-align: left;
+  width: 15%;  
+}
+
+@media (max-width: 1280px){
+  .boSeccionGrillaObjectsResponsive{
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 1024px){
+  .boSeccionGrillaObjectsResponsive{
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 800px){
+  .boSeccionGrillaObjectsResponsive{
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    display: inline-block;
+  }
+}
+
+.boSeccionGrillaControlResponsive{
+  width: 80%;
+  height: 100%;
+}
+
+.boLineIndexGrillaContainerResponsive{
+  color:white;
+  text-align: center;
+  font-size: 3mm;
+  float: left;
+  width: 5%;
+  height: 95%;  
+}
+
+.boTicketLineGrillaResponsive{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 98%;
+  height: 60px;
+  padding: 1%;
+  float: left;
+  margin-left:5px;
+  margin-top: 10px;
+}
+
+.boLineIndexGrillaResponsive {
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	background: #6d4b5b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.boLineIndexGrillaResponsive > p{
+	font-family: sans-serif;
+	color: white;
+	font-size: 3mm;
+	font-weight: bold;
+  margin-top: 15px;
+}
+
+.boTicketLinePrincipalContentGrillaResponsive{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;	
+  color:white;
+  text-align: center;
+  font-size: 4mm;
+  margin-top: 3px;
+  float: left;
+  width: 13%;
+  height: 95%;
+}
+
+
+
+
+.boTicketContentLineGrillaResponsive{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 100%;
+  height: 50px;
+  float: left;
+  margin-left:5px;
+  margin-top: 10px;
+}
+
+.boTicketContentLineIndexGrillaContainerResponsive{
+  color:white;
+  text-align: center;
+  font-size: 3mm;
+  float: left;
+  width: 5%;
+  height: 95%;
+  margin-top: 10px;
+  margin-left: 3px;  
+}
+
+.boTicketContentLineIndexGrillaResponsive{
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	background: #a7a7a7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.boTicketContentLineIndexGrillaResponsive > p{
+	font-family:Verdana, Geneva, Tahoma, sans-serif;	
+  color: white;
+	font-size: 3mm;
+	font-weight: bold;
+  margin-top: 15px;
+}
+
+.boTicketContentLinePrincipalContentGrillaResponsive{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;	
+  color:black;
+  text-align: center;
+  font-size: 3mm;
+  float: left;
+  width: 13%;
+  height: 95%;
+  margin-top: 10px;
+}
+
+.printTicket{
+  visibility: hidden;
+}
+
+.printTicketView
+{
+  visibility:visible;
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.ticketBarCode{
+  float: left;
+  border:2px;
+  border-color: #000000;
+  border-style:dashed;
+  background: white;
+  height: 250px;
+  width: 300px;
+}
+
+.ticketLogoLeftUp
+{
+  float: left;
+  width: 20%;
+  height: 50px;
+}
+
+.ticketLogoCenterUp
+{
+  float: left;
+  width: 60%;
+  height: 50px;
+  text-align: center;
+}
+
+.ticketLogoRightUp
+{
+  float: left;
+  width: 20%;
+  height: 50px;
+}
+
+.ticketContentCodeBar
+{
+  float: left;
+  width: 100%;
+  height: 140px;
+}
+
+.ticketLogoLeftBottom
+{
+  float: left;
+  width: 20%;
+  height: 50px;
+}
+
+.ticketLogoCenterBottom
+{
+  float: left;
+  width: 60%;
+  height: 50px;
+  text-align: center;
+  color: #000000;
+  font-size: medium;
+  padding-top: 5%;
+}
+
+.ticketLogoRightBottom
+{
+  float: left;
+  width: 20%;
+  height: 50px;
+}
+
+
+
+
+
+.ticketLogo1Esquina
+{
+  width: 20%;
+  height: 30px;  
+}
+
+.ticketLogo1Resto
+{
+  width: 80%;
+  height: 30px;
+}
+
+.ticketLogo2Container
+{
+  width: 100%;
+  height: 30px;  
+}
+
+.ticketLogo2Esquina
+{
+  width: 20%;
+  height: 30px;  
+}
+
+.ticketLogo2Resto
+{
+  width: 80%;
+  height: 30px;
+}
+
+.ticketContentLeft
+{
+  width: 20%;
+  height: 30px;
+}
+
+.ticketLogoCentral
+{
+  width: 100%;
+  height: 20px;
+}
+
+.ticketContentCenter
+{
+  width: 60%;
+  height: 30px;
+}
+
+.ticketContentRigth
+{
+  width: 20%;
+  height: 30px;
+}
+
+.ticketName
+{
+  width: 100%;
+  height: 30px;
+}
+
+
+.printTicketPage
+{
+  padding: 10%;
+}
+
+li {
+  display: block;
+  width: 350px;
+}
+
+.nav{
+  width: 100%;
+}
+
+@media (min-width: 800px) {
+  .nav{
+      max-height: none;
+      top: 0;
+      position: relative;
+      float: right;
+      width: fit-content;
+  }
+  .li{
+      float: left;
+      display: inline;
+  }
+
+  .hamb{
+      display: none;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .nav{
+      max-height: none;
+      top: 0;
+      position: relative;
+      float: right;
+      width: fit-content;
+  }
+  .li{
+      float: left;
+      display: inline;
+  }
+
+  .hamb{
+      display: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .nav{
+      max-height: none;
+      top: 0;
+      position: relative;
+      float: right;
+      width: fit-content;
+  }
+  .li{
+      float: left;
+      display: inline;
+  }
+
+  .hamb{
+      display: none;
+  }
+}
+
+.safiltercontrols{
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;  
+}
+
+.sabackComponent{
+  background-color: #eeeeed;
+  border-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 100%;
+  padding: 2%;
+  float: left;
+  margin-top: 1%;
+}
+
+.saContainerGrid{
+  min-height: 100px;
+  max-height: 500px;
+  overflow-y: scroll;
+}
+
+.saTitulosGrid
+{
+  height: 40px;
+  font-size:1em;
+  font-weight: bold;
+  text-align: left;
+}
+
+.saLineGrid{
+  height: 55px;
+  font-size:1em;
+  text-align: left;
+  border-bottom-style: solid;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+}
+
+.btn.btn-customer {
+  background-color: #aa0047;
+  border-color: #aa0047;
+  color: white;
+  width: 100%;
+  padding: 3%;
+  float: left;
+  margin-top: 1%;
+}
+
+.btn.btn-customer:hover,
+.btn.btn-customer:active,
+.btn.btn-customer:focus,
+.btn.btn-customer:visited{
+  background-color:#df4082;
+  border-color:#df4082;
+  box-shadow:  0 0 8px rgb(233, 52, 151) !important;
+}
+
+.btn.btn-customer:focus
+.btn.btn-customer.focus{
+  border-color:#df4082;
+  box-shadow: 0 0 8px rgb(233, 52, 151) !important;
+}
+
+.textPrintTicket{
+  color: black;
+  width: 100%;
+  padding: 3%;
+  float: left;
+  font-size:1.1rem;
+  font-weight: bold;
+}
